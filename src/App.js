@@ -295,7 +295,7 @@
               <option value="pending">Pending</option>
             </select>
           </div>
-          <h2 className="heading">Upcoming Tasks</h2>
+          <h2 className=" ">Upcoming Tasks</h2>
           <div className="task-list" id="task-list">
             <table>
               <thead>
