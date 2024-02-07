@@ -190,8 +190,6 @@ Local Storage
 Links
 GitHub Repository:https://github.com/DEEPTHIGANGIREDDY/Task-Management-Application
 
-GitHub
 Live Demo (Netlify):
-
-Netlify
+https://task-management-application-deepthi.netlify.app/
 
