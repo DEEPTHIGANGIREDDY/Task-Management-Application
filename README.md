@@ -68,3 +68,130 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Task Management Application
+This is a simple Task Management Application built using React. It allows users to add, edit, mark as done, and delete tasks with priorities and deadlines. The application also includes features to filter tasks based on priority, completion status, and search query. Additionally, tasks that have passed their deadlines are categorized as overdue tasks.
+
+Features
+Add Task: Users can add a new task by entering the task name, description, selecting a priority, and setting a deadline.
+
+Edit Task: Tasks can be edited by clicking the edit icon. Users can modify the task name, description, priority, and deadline.
+
+Mark as Done: Users can mark a task as done by clicking the checkmark icon. The completed task is then moved to the "Completed Tasks" section.
+
+Delete Task: Tasks can be deleted by clicking the delete icon. Completed tasks can also be deleted from the "Completed Tasks" section.
+
+Filtering Options: Users can filter tasks based on priority, completion status, and search query.
+
+Overdue Tasks: Tasks with deadlines that have passed are moved to the "Overdue Tasks" section.
+
+Usage
+Adding a Task:
+
+Enter the task name in the "Enter task..." input field.
+Enter the task description in the "Enter task description..." input field.
+Select the priority from the dropdown menu.
+Set the deadline by choosing a date using the date input field.
+Click the "Add Task" button to add the task.
+Editing a Task:
+
+Click the edit icon next to the task you want to edit.
+Update the task details.
+Click the "Update Task" button to save the changes.
+Marking a Task as Done:
+
+Click the checkmark icon next to the task you want to mark as done.
+The task will be moved to the "Completed Tasks" section.
+Deleting a Task:
+
+Click the delete icon next to the task you want to delete.
+For completed tasks, you can delete them from the "Completed Tasks" section.
+Filtering Tasks:
+
+Use the search input field to filter tasks based on a search query.
+Use the priority and completion status dropdowns to filter tasks accordingly.
+Overdue Tasks:
+
+Tasks with deadlines that have passed will be automatically moved to the "Overdue Tasks" section.
+Local Storage
+The application uses local storage to persist tasks, completed tasks, and overdue tasks. Tasks are loaded from local storage on component mount, and changes to tasks trigger updates to local storage.
+
+Icons
+The application uses Material-UI icons for different actions:
+
+CheckCircleIcon: Marking a task as done.
+BorderColorIcon: Editing a task.
+RemoveCircleIcon: Deleting a task.
+Technologies Used
+React
+Material-UI
+Running the Application
+Clone the repository.
+Run npm install to install dependencies.
+Run npm start to start the development server.
+Open the application in your web browser.
+
+Features
+Add Task: Users can add a new task by entering the task name, description, selecting a priority, and setting a deadline.
+
+Edit Task: Tasks can be edited by clicking the edit icon. Users can modify the task name, description, priority, and deadline.
+
+Mark as Done: Users can mark a task as done by clicking the checkmark icon. The completed task is then moved to the "Completed Tasks" section.
+
+Delete Task: Tasks can be deleted by clicking the delete icon. Completed tasks can also be deleted from the "Completed Tasks" section.
+
+Filtering Options: Users can filter tasks based on priority, completion status, and search query.
+
+Overdue Tasks: Tasks with deadlines that have passed are moved to the "Overdue Tasks" section.
+
+Usage
+Adding a Task:
+
+Enter the task name in the "Enter task..." input field.
+Enter the task description in the "Enter task description..." input field.
+Select the priority from the dropdown menu.
+Set the deadline by choosing a date using the date input field.
+Click the "Add Task" button to add the task.
+Editing a Task:
+
+Click the edit icon next to the task you want to edit.
+Update the task details.
+Click the "Update Task" button to save the changes.
+Marking a Task as Done:
+
+Click the checkmark icon next to the task you want to mark as done.
+The task will be moved to the "Completed Tasks" section.
+Deleting a Task:
+
+Click the delete icon next to the task you want to delete.
+For completed tasks, you can delete them from the "Completed Tasks" section.
+Filtering Tasks:
+
+Use the search input field to filter tasks based on a search query.
+Use the priority and completion status dropdowns to filter tasks accordingly.
+Overdue Tasks:
+
+Tasks with deadlines that have passed will be automatically moved to the "Overdue Tasks" section.
+Local Storage
+The application uses local storage to persist tasks, completed tasks, and overdue tasks. Tasks are loaded from local storage on component mount, and changes to tasks trigger updates to local storage.
+
+Icons
+The application uses Material-UI icons for different actions:
+
+CheckCircleIcon: Marking a task as done.
+BorderColorIcon: Editing a task.
+RemoveCircleIcon: Deleting a task.
+Technologies Used
+React JS
+Material-UI
+Local Storage
+
+Links
+GitHub Repository:https://github.com/DEEPTHIGANGIREDDY/Task-Management-Application
+
+GitHub
+Live Demo (Netlify):
+
+Netlify
+
